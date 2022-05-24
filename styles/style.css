@@ -1,0 +1,786 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+a, p, h1, h2, h3, h4, ul, li, img, div {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  width: 98vw;
+
+  font-family: 'Roboto Condensed', Arial, sans-serif;
+  vertical-align: top;
+  flex: auto;
+  margin: 0 auto;
+  /*overflow-x:hidden;  /*для горизонтального*/
+}
+
+.content{
+
+}
+
+.header {
+  margin: 0 auto;
+  height: 1113px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+
+   background-image: url(../images/complexis_22.jpg);
+  background-repeat: no-repeat;
+  background-color: #1B2B69;
+  -moz-background-size: 100%; /* Firefox 3.6+ */
+  -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+  -o-background-size: 100%; /* Opera 9.6+ */
+  background-size: 100%; /* Современные браузеры */
+
+
+}
+
+.logo_place_header{
+  width: 225px;
+  height: 52px;
+  position: absolute;
+  left: 62px;
+  top: 52px;
+
+}
+
+
+.m1 > a{
+  color: white;
+  margin-right: 40px;
+  font-size: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.connect_button > span{
+  top: 10px;
+  left: 25px;
+  margin: 0 auto;
+  position: absolute;
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 24px;
+  vertical-align: middle;
+  text-align: center;
+  letter-spacing: -0.011em;
+  vertical-align: middle;
+  color: #7CF0DD;
+}
+
+.m1{
+  display: flex;
+  flex-direction: row;
+  width: 96%;
+  height: 40px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  justify-content: flex-end;
+  margin-top: 50px;
+}
+
+
+
+.header__сontent{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center; /*выровняанять вложенные в .header__сontent пр середине */
+
+}
+
+.header__сontent_text_1{
+  position: absolute;
+  top: 660px;
+  width: 823px;
+  height: 100px;
+
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 49px;
+  line-height: 55px;
+  /* or 112% */
+
+  text-align: center;
+  letter-spacing: -0.027em;
+
+  color: #FFFFFF;
+}
+
+.header__сontent_text_2{
+position: absolute;
+top: 821px;
+width: 616px;
+height: 69px;
+
+
+font-family: Roboto Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 21px;
+
+text-align: center;
+letter-spacing: -0.027em;
+
+color: #FFFFFF;
+}
+
+
+.header__сontent_text_3{
+  position: absolute;
+  top: 920px;
+}
+
+
+.about{
+  width: 100%;
+  height: 2550px;
+  position: relative;
+  display: flex;
+  z-index: 1;
+
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  /*obackground-color: #1B2B69;*/
+
+}
+
+
+.about_content_center{
+  width: 100%;
+  position: relative;
+  margin-top: 588px;
+  padding: 0;
+  justify-content: center;
+  display: flex;
+
+  background-image: url(../images/complexis_2.jpg);
+  background-repeat: no-repeat;
+
+  -moz-background-size: 100%; /* Firefox 3.6+ */
+  -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+  -o-background-size: 100%; /* Opera 9.6+ */
+  background-size: 100%; /* Современные браузеры */
+  background-color: #1B2B69;
+}
+
+
+.counter_table{
+  width: 100%;
+  height: 137px;
+  justify-content: space-between;
+  display: flex;
+  position: absolute;
+  top: 576px;
+
+}
+
+
+.counter_table_cell{
+  width: 33%;
+  height: 137px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.counter_table_cell_title{
+  height: 53px;
+
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 177px;
+  line-height: 56px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.counter_table_cell_text{
+  margin-top: 60px;
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 10px;
+
+  text-align: center;
+  letter-spacing: -0.06em;
+
+  color: #FFFFFF;
+
+}
+
+
+.about_img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  margin-top: 420px;
+  z-index: 0;
+
+  /*        <!--><img src="./images/complexis_2.jpg" alt="Горы" class="about_img"><-->*/
+}
+
+.about__text_top{
+  position: absolute;
+  width: 605px;
+  height: 178px;
+  margin: 0 auto;
+  z-index: 1;
+  display: flex;
+  top: 0;
+  margin: 0px;
+  padding: 0px;
+
+  margin-top: 137px;
+
+
+  text-align: center;
+  font-size: 18px;/*calc(18px + 10 * (100vw / 2588));*/
+  line-height: 21.6px;
+  color: black;
+}
+
+.about__title{
+  position: absolute;
+  width: 400px;
+  margin: 0 auto;
+  z-index: 1;
+  display: flex;
+  top: 367px;
+  margin: 0px;
+  padding: 0px;
+  color: #3756CB;
+
+
+  text-align: center;
+  font-size: 48px;
+  line-height: 56.25px;
+  font-weight: normal;
+}
+
+.about__img_shield{
+  height:327px;
+  width: 313px;
+  margin: 0 auto;
+  z-index: 1;
+  display: flex;
+  margin-top: 1066px;
+  padding: 0px;
+  justify-content: center;
+  position: absolute;
+}
+
+.about__text_question{
+
+  position: absolute;
+  width:972px;
+  height: 55px;
+  margin: 0 auto;
+  z-index: 1;
+  display: flex;
+  top: 1491px;
+
+  padding: 0px;
+  color: white;
+
+
+  text-align: center;
+  font-size: 48px;
+  line-height: 56.25px;
+  font-weight: normal;
+  letter-spacing: -1.5%;
+
+}
+
+.about__text_bottom{
+
+  position: absolute;
+  width: 982px;
+  height: 162px;
+  margin: 0 auto;
+  z-index: 1;
+  display: block;
+  top: 1600px;
+
+  margin-top: 0px;
+  padding: 0px;
+
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.75%;
+
+}
+
+.about__button{
+  margin: 0 auto;
+  margin-top: 62px;
+
+  width: 192px;
+  height: 43px;
+  cursor: pointer;
+}
+
+/* направления 4265*/
+.direction {
+
+  height: 938px;
+  z-index: 1;
+  margin: 0 auto;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+  display: flex;
+  /*top: 3655px;
+  /*background-color: white;*/
+  z-index: 2;
+  position: relative;
+
+}
+
+.direction__items{
+  position: absolute;
+  width: 1175px;
+  z-index: 1;
+}
+
+
+.direction__table{
+
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-inline-start: 0px;
+}
+
+.direction__items_table__cell{
+  text-align: start;
+  width: 550px;
+
+
+  padding: 0px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+
+.direction__items_table__cell_in{
+  margin-top: 20px;
+  margin-left: 20px;
+
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.0075em;
+  color: #000000;
+
+}
+
+.direction__items_table__cell > li :first-child{
+  margin-top: 60px;
+}
+
+
+.consultation {
+  height: 369px;
+  width: 1175px;
+  z-index: 1;
+  margin: 0 auto;
+  /* justify-content: center;*/
+  position: relative;
+  display: flex;
+}
+
+.consultation_1{
+  height: 700px;
+  width: 100%;
+  z-index: 1;
+  margin: 0 auto;
+  /* justify-content: center;*/
+  position: relative;
+  display: flex;
+  background-color: #E5E5E5;
+  justify-content: center;
+  align-items: center;
+}
+
+.consultation__content{
+  height: 100%;
+  width: 1317px;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.consultation__content_left{
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: flex-start; /*по центру X*/
+  align-items: center; /*по центру Y*/
+}
+
+.consultation__content_left_text{
+  position: absolute;
+  height: 173px;
+  width: 556px;
+}
+
+.consultation__content_left_text p{
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+  margin: 0;
+  color: #5B5F60;
+}
+
+
+.consultation__content_left_2{
+  position: absolute;
+  top:320px;
+
+}
+
+.consultation__content_right{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  justify-content:flex-end;; /*по центру X*/
+}
+
+
+.consultation__content_img{
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  background-image: url(../images/complexis_3.jpg);
+  background-repeat: no-repeat;
+}
+
+
+.connect_button{
+  width: 192px;
+  height: 43px;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: baseline;
+  transition: opacity 0.2s;
+  background-image: url(../images/b1.svg);
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  position: relative;
+
+}
+
+
+.connect_button:before {
+content: "";
+text-shadow: 1px 1px 2px grey;
+
+
+font-family: Roboto Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 27px;
+line-height: 24px;
+vertical-align: middle;
+text-align: center;
+letter-spacing: -0.011em;
+vertical-align: middle;
+color: #7CF0DD;
+}
+
+
+.partners{
+  height: 590px;
+  width: 100%;  /*2204px;*/
+  z-index: 1;
+
+  display: flex;
+  position: relative;
+  justify-content: center;
+
+}
+
+
+.partners_title{
+    margin: 0 auto;
+    height: 35px;
+    position: absolute;
+    width: 1175px;
+    margin-top: 114px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+.partners_title_2{
+    margin: 0 auto;
+    height: 35px;
+    position: absolute;
+    width: 1175px;
+    margin-top: 76px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.partners_title_h{
+
+  margin: 0 auto;
+
+  width: 236px;
+  height: 35px;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+
+  color: #40444D;
+}
+
+.double_arr{
+  width: 20px;
+  margin-left: 20px;
+  height: 100%;
+  display: flex;
+}
+
+.partners__table{
+ display: flex;
+
+  max-width: 2578px;
+  width: 100%;
+
+  list-style: none;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 252px;
+  padding-inline-start: 0px;
+}
+
+.partners__table_cell{
+  width: 15%;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+}
+
+
+
+.partners__table_cell_title{
+  font-weight: bold;
+  letter-spacing: -0.008em;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.partners__table_cell_text{
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+  margin-top: 20px;
+}
+
+.license{
+  height: 793px;
+  width: 100%;  /*2204px;*/
+  z-index: 1;
+  position: relative;
+  display: flex;
+  justify-content:center; /*выровняанять вложенные в .header__сontent пр середине */
+
+}
+
+.license__content_items{
+  width: 1175px;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 181px;
+}
+
+.license__content_items img{
+  width: 25%;
+  margin: 0px;
+  padding: 0px;
+
+
+}
+
+.footer {
+height: 452px;
+width: 100%;  /*2204px;*/
+z-index: 1;
+position: relative;
+display: flex;
+background-color: #1B2B69;
+justify-content:center;
+align-items: center;
+}
+
+
+
+.footer__table{
+  display: flex;
+  top: 131px;
+  width: 1175px;
+  height: 297px;
+  z-index: 1;
+
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-inline-start: 0px;
+
+}
+
+
+.footer__columns_social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo_place_footer {
+  height: 35px;
+}
+
+.footer__columns_1{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+
+.footer__content_copiright {
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 107.69%;
+  letter-spacing: -0.035em;
+  position: relative;
+  color: #FFFFFF;
+}
+
+
+.footer__content_adress{
+  position: absolute;
+  width: 497px;
+  height: 73px;
+  margin-top: 91px;
+
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 107.69%;
+  letter-spacing: -0.025em;
+  color: #FFFFFF;
+}
+
+.footer__social-icon{
+  width: 22px;
+  height: 22px;
+  margin-right:10px;
+}
+
+
+.footer__ico{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 120px;
+}
+
+.footer__columns_copiright_contacts_title{
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 54px;
+  letter-spacing: 0.01em;
+
+  color: #FFFFFF;
+}
+
+.footer__columns_2{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  align-items: flex-end;
+}
+
+
+.direction__items_table__cell_in > span{
+  color: #f16092;
+  }
+
+ .connect_button > span{
+   top: 10px;
+   left: 25px;
+   margin: 0 auto;
+   position: absolute;
+   font-family: Roboto Condensed;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 27px;
+   line-height: 24px;
+   vertical-align: middle;
+   text-align: center;
+   letter-spacing: -0.011em;
+   vertical-align: middle;
+   color: #7CF0DD;
+}
